@@ -42,11 +42,11 @@ def calc_pH():
 def find_Ph(user_input):
     if user_input < 6.5:
         return "Dpd1 trop bas (trop acide), Réajuster avec du ph+"
-    elif user_input >= 6.5 and user_input < 6.9:
+    elif 6.5 <= user_input < 6.9:
         return "Ph un peu bas (trop acide), Réajuster avec du ph+"
-    elif user_input >= 6.9 and user_input <= 7.7:
+    elif 6.9 <= user_input <= 7.7:
         return "Ph correct"
-    elif user_input > 4 and user_input <= 10:
+    elif 4 < user_input <= 10:
         return "Ph un peu trop haut (trop basique), Réajuster avec du ph -"
     else:
         return "Ph trop Haut, Trop Basique"
@@ -55,9 +55,9 @@ def find_Ph(user_input):
 def find_Stabilisant(user_input):
     if user_input < 10:
         return "Stabilisant trop bas+"
-    elif user_input >= 10 and user_input <= 75:
+    elif 10 <= user_input <= 75:
         return "Stabilisant correct"
-    elif user_input > 75 and user_input <= 125:
+    elif 75 < user_input <= 125:
         return "Stabilisant trop haut\nConseil : Vidage partiel du bassin ou traitemetn avec du chlore stabilisé"
     else:
         return "Stabilisant trop haut\nVidage partiel du bassin avec augmentation en apport d'eau neuve"
