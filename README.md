@@ -3,6 +3,9 @@
 
 It's a little app who allow you to caculate the constants of your pool water.
 
+# How to compile
+
+```pyinstaller --onefile -w -main.py```
 
 ## Authors
 
