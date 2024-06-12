@@ -1,3 +1,0 @@
-([('main',
-   '/Users/gwendal/Desktop/Adjust-Your-Piscine-Water/dist/main',
-   'EXECUTABLE')],)

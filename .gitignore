@@ -1,2 +1,5 @@
 /dist/main.app
 /build
+** .DS_Store
+
+./idea
