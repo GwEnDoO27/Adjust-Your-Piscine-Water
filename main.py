@@ -32,7 +32,7 @@ def calc_dpd3():
 
 def calc_pH():
     try:
-        user_input = float(DpD3_entry.get())
+        user_input = float(ph_entry.get())
         result = find_Ph(user_input)
         messagebox.showinfo("Résultat", result)
     except ValueError:
