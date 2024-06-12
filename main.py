@@ -41,7 +41,7 @@ def calc_pH():
 
 def find_Ph(user_input):
     if user_input < 6.5:
-        return "Dpd1 trop bas (trop acide), Réajuster avec du ph+"
+        return "Ph trop bas (trop acide), Réajuster avec du ph+"
     elif 6.5 <= user_input < 6.9:
         return "Ph un peu bas (trop acide), Réajuster avec du ph+"
     elif 6.9 <= user_input <= 7.7:
