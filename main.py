@@ -76,8 +76,17 @@ def find_dpd1(user_input):
         return "Dpd1 trop haut"
 
 
-def find_Dpd3(number):
-    return number / 2
+def find_Dpd3(user_input):
+    if user_input < 0.5:
+        return "Dpd3 trop bas"
+    elif 0.5 <= user_input < 2:
+        return "Dpd3 un peu bas"
+    elif 2 <= user_input < 4:
+        return "Dpd3 correct"
+    elif 4 <= user_input <= 10:
+        return "Dpd3 un peu haut"
+    else:
+        return "Dpd3 trop haut"
 
 
 # Créer la fenêtre principale
