@@ -130,5 +130,5 @@ ph_entry.pack(pady=5)
 ph_button = tk.Button(root, text="Submit", command=calc_pH)
 ph_button.pack(pady=10)
 
-# Lancer la boucle principale
+# Lancer la boucle principales
 root.mainloop()
